@@ -14,4 +14,4 @@ if decimal_part:
     for digit in numlist:
         numout += digit * (2 ** power)
         power -= 1
-print(numout)
+print("十進位表示為：",numout)
